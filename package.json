@@ -1,0 +1,19 @@
+{
+  "name": "com.preliy.package",
+  "displayName": "Preliy Package",
+  "version": "0.0.0",
+  "unity": "2022.2",
+  "description": "A test package",
+  "keywords": [],
+  "category": "preliy",
+  "author": {
+    "name": "preliy",
+    "email": "vikt.gaponenko@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/Preliy/CustomPackage.git",
+    "directory": "com.preliy.package"
+  }
+}
