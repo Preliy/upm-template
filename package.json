@@ -11,10 +11,5 @@
     "name": "preliy",
     "email": "vikt.gaponenko@gmail.com",
     "url": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://https://github.com/Preliy/CustomPackage",
-    "directory": "com.preliy.package"
   }
 }
