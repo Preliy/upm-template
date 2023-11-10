@@ -6,6 +6,7 @@
   "description": "A test package",
   "keywords": [],
   "category": "preliy",
+  "changelogUrl": "https://example.com/changelog.html",
   "author": {
     "name": "preliy",
     "email": "vikt.gaponenko@gmail.com",
