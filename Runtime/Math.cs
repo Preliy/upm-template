@@ -4,4 +4,9 @@ public static class Math
     {
         return a + b;
     }
+    
+    public static float Minus(float a, float b)
+    {
+        return a - b;
+    }
 }
