@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:        
+      matrix:
+        projectPath:
+          - .
         unityVersion: 
           - '2020.3.0f1'
         testMode:
@@ -20,15 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          lfs: true  
-        
+          lfs: true        
       - uses: game-ci/unity-test-runner@v4
         id: tests
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           packageMode: true
-          projectPath: ${{ github.workspace }}
+          projectPath: ${{ matrix.projectPath }}
           unityVersion: ${{ matrix.unityVersion }}
           testMode: ${{ matrix.testMode }}
           artifactsPath: ${{ matrix.testMode }}-artifacts
