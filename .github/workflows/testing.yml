@@ -12,7 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        projectPath: .
+        projectPath: 
+          - test-package
         unityVersion: '2022.3.5f1'
         testMode:
           - playmode
