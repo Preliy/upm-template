@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Preliy/upm-template/compare/v1.4.0...v1.5.0) (2024-05-17)
+
+
+### Features
+
+* test material ([4de4e69](https://github.com/Preliy/upm-template/commit/4de4e6983f4bc4c472364ad873b00d852b13c097))
+
 # [1.4.0](https://github.com/Preliy/upm-template/compare/v1.3.0...v1.4.0) (2024-05-17)
 
 
