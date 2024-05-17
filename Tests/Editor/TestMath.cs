@@ -8,6 +8,6 @@ public class TestMath
     [TestCase(2, 2F, ExpectedResult = 4F)]
     public float TestMathAdd(float a, float b)
     {
-        return a + b;
+        return 1; //a + b;
     }
 }
