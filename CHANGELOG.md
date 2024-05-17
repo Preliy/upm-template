@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/Preliy/upm-template/compare/v1.3.0...v1.4.0) (2024-05-17)
+
+
+### Features
+
+* Add build job to Update release.yml ([167a82b](https://github.com/Preliy/upm-template/commit/167a82b071310d4a23087d1726652a89f7a0cb28))
+
 # [1.3.0](https://github.com/Preliy/upm-template/compare/v1.2.0...v1.3.0) (2024-05-17)
 
 
