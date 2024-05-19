@@ -22,7 +22,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}          
       - name: Create upm branch
         run: | 
-          git checkout upm
+          git checkout upm || git checkout -b upm
           if [[ -d "Samples" ]]; then
             git mv Samples Samples~
             rm -f Samples.meta
