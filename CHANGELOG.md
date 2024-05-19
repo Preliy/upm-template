@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/Preliy/upm-template/compare/v1.5.5...v1.5.6) (2024-05-19)
+
+
+### Bug Fixes
+
+* Update release.yml ([c5443c5](https://github.com/Preliy/upm-template/commit/c5443c564afb1c06e2352577a43ef2964151ecc6))
+
 ## [1.5.5](https://github.com/Preliy/upm-template/compare/v1.5.4...v1.5.5) (2024-05-19)
 
 
