@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0          
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:
@@ -19,8 +19,7 @@ jobs:
             @semantic-release/git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}          
       - name: Create upm branch
         run: |
           git branch -d upm &> /dev/null || echo upm branch not found
@@ -35,8 +34,7 @@ jobs:
           fi
           git push -f -u origin upm
         env:
-          PKG_ROOT: ${{ github.workspace }}
-          
+          PKG_ROOT: ${{ github.workspace }}          
       - name: Create upm git tag
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
