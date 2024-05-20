@@ -1,3 +1,10 @@
+## [1.5.8](https://github.com/Preliy/upm-template/compare/v1.5.7...v1.5.8) (2024-05-20)
+
+
+### Bug Fixes
+
+* update tag name step ([d888889](https://github.com/Preliy/upm-template/commit/d8888894ee381b0fc3d1c538fc77ec6c220b81a0))
+
 ## [1.5.7](https://github.com/Preliy/upm-template/compare/v1.5.6...v1.5.7) (2024-05-20)
 
 
