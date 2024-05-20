@@ -1,3 +1,12 @@
+## [1.5.16](https://github.com/Preliy/upm-template/compare/v1.5.15...v1.5.16) (2024-05-20)
+
+
+### Bug Fixes
+
+* release workflow trigger ([12ae994](https://github.com/Preliy/upm-template/commit/12ae9941a21bafeae171378763f5bd1f82f62b3d))
+* release workflow trigger ([d1ad951](https://github.com/Preliy/upm-template/commit/d1ad9516050638aa23bc2b6eb3866ef2bce2119a))
+* release workflow trigger ([a402250](https://github.com/Preliy/upm-template/commit/a4022503d59efb39e7885029008f4ad0418506d7))
+
 ## [1.5.15](https://github.com/Preliy/upm-template/compare/v1.5.14...v1.5.15) (2024-05-20)
 
 
