@@ -13,7 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0          
+          fetch-depth: 0
+          persist-credentials: false
+          
       - name: Semantic Release
         id: semantic
         uses: cycjimmy/semantic-release-action@v4
@@ -22,7 +24,8 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }} 
+          
       - name: Create UPM Branches
         if: steps.semantic.outputs.new_release_published == 'true'
         uses: preliy/create-upm-branch-action@development
