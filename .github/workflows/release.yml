@@ -19,12 +19,8 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} 
-      - name: Tag name
-        id: tag
-        run: echo "TAG=${GITHUB_REF#refs/tags/v}" >>$GITHUB_OUTPUT
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       - name: Create UPM Branches
         uses: preliy/create-upm-branch-action@development
         with:
-          git-tag: ${{ steps.tag.outputs.name }}
+          git-tag: ${{ steps.semantic.outputs.new_release_version }}
