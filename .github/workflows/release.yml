@@ -26,8 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
           
-      - name: Create UPM Branches
-        if: steps.semantic.outputs.new_release_published == 'true'
+      - name: Create UPM Branches        
         uses: preliy/create-upm-branch-action@development
         with:
           git-tag: v${{ steps.semantic.outputs.new_release_version }}
