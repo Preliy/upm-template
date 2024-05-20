@@ -1,3 +1,10 @@
+## [1.5.9](https://github.com/Preliy/upm-template/compare/v1.5.8...v1.5.9) (2024-05-20)
+
+
+### Bug Fixes
+
+* new release version passing in UPM branch action ([162361c](https://github.com/Preliy/upm-template/commit/162361c0dc4528c90e520509bd9d37185d6489a5))
+
 ## [1.5.8](https://github.com/Preliy/upm-template/compare/v1.5.7...v1.5.8) (2024-05-20)
 
 
