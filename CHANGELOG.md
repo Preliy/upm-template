@@ -1,3 +1,10 @@
+## [1.5.15](https://github.com/Preliy/upm-template/compare/v1.5.14...v1.5.15) (2024-05-20)
+
+
+### Bug Fixes
+
+* some changes 4 ([90e2962](https://github.com/Preliy/upm-template/commit/90e29623a881be31bdd76844a3c2f6daa42eae72))
+
 ## [1.5.14](https://github.com/Preliy/upm-template/compare/v1.5.13...v1.5.14) (2024-05-20)
 
 
