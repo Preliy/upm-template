@@ -7,6 +7,6 @@ public static class Math
     
     public static float Minus(float a, float b)
     {
-        return a - b; //some changes 4
+        return a - b; //feature 2
     }
 }
