@@ -30,8 +30,8 @@ jobs:
       - name: Create UPM Branches  
         run: |
           git checkout master
-          git config user.name Preliy
-          git config user.email vikt.gaponenko@gmail.com
+          git config --local user.name Preliy
+          git config --local user.email vikt.gaponenko@gmail.com
           git checkout -B upm 
           git mv $SAMPLES_DIR Samples~ &> /dev/null || echo $SAMPLES_DIR is not found
           git rm $SAMPLES_DIR.meta
