@@ -26,7 +26,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
           
-      - name: Create UPM Branches        
-        uses: preliy/create-upm-branch-action@development
-        with:
-          git-tag: v${{ steps.semantic.outputs.new_release_version }}
+      - name: Create UPM Branches  
+        run: |
+          git checkout master
+          git config user.name Preliy
+          git config user.email vikt.gaponenko@gmail.com
+          git checkout -B upm 
+          git mv $SAMPLES_DIR Samples~ &> /dev/null || echo $SAMPLES_DIR is not found
+          git rm $SAMPLES_DIR.meta
+          echo "Release Version; $TAG"
+          git commit -m "release $TAG."
+          git push -f origin upm
+          git checkout -b upm@$TAG
+          git push -f origin upm@$TAG
+        env:
+          TAG: v${{ steps.semantic.outputs.new_release_version }}              
+          PKG_ROOT_DIR_PATH: ""
+          SAMPLES_DIR: "Samples"
