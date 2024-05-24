@@ -1,3 +1,10 @@
+## [1.5.18](https://github.com/Preliy/upm-template/compare/v1.5.17...v1.5.18) (2024-05-24)
+
+
+### Bug Fixes
+
+* create upm branch workflow ([8f4e42e](https://github.com/Preliy/upm-template/commit/8f4e42ea8bd11a37ba98222b1220e3b36c748ecc))
+
 ## [1.5.17](https://github.com/Preliy/upm-template/compare/v1.5.16...v1.5.17) (2024-05-20)
 
 
