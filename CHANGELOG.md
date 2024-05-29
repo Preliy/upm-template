@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/Preliy/upm-template/compare/v1.7.4...v1.7.5) (2024-05-29)
+
+
+### Bug Fixes
+
+* Update filterconfig.yml ([3d75d2f](https://github.com/Preliy/upm-template/commit/3d75d2f1df308a437d7bb610d76f96b7a9937663))
+
 ## [1.7.4](https://github.com/Preliy/upm-template/compare/v1.7.3...v1.7.4) (2024-05-29)
 
 
