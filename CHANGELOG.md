@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/Preliy/upm-template/compare/v1.7.2...v1.7.3) (2024-05-29)
+
+
+### Bug Fixes
+
+* Create README.md ([f8b1698](https://github.com/Preliy/upm-template/commit/f8b16985674afd7c17dd248240516ad8900cc0b2))
+
 ## [1.7.2](https://github.com/Preliy/upm-template/compare/v1.7.1...v1.7.2) (2024-05-29)
 
 
