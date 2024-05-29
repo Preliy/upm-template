@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/Preliy/upm-template/compare/v1.6.0...v1.7.0) (2024-05-29)
+
+
+### Features
+
+* docfx ([af29ecb](https://github.com/Preliy/upm-template/commit/af29ecbdc880b03074b215f38d2f1544b0d4c10b))
+
 # [1.6.0](https://github.com/Preliy/upm-template/compare/v1.5.22...v1.6.0) (2024-05-24)
 
 
