@@ -1,3 +1,11 @@
+## [1.7.2](https://github.com/Preliy/upm-template/compare/v1.7.1...v1.7.2) (2024-05-29)
+
+
+### Bug Fixes
+
+* Scripts folder ([4f2ff4d](https://github.com/Preliy/upm-template/commit/4f2ff4d26c0f25b355ee1ccdb88a561e8df789bd))
+* Update docfx.json ([da66d0f](https://github.com/Preliy/upm-template/commit/da66d0fff0b02a4327bd2699d7fc007f0831e854))
+
 ## [1.7.1](https://github.com/Preliy/upm-template/compare/v1.7.0...v1.7.1) (2024-05-29)
 
 
