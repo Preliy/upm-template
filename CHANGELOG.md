@@ -1,3 +1,11 @@
+## [1.7.1](https://github.com/Preliy/upm-template/compare/v1.7.0...v1.7.1) (2024-05-29)
+
+
+### Bug Fixes
+
+* Delete .github/workflows/release.yml ([b230002](https://github.com/Preliy/upm-template/commit/b230002b369e103bcf11e8f55c1a34782d4c2e20))
+* Update Math.cs ([f2a0d53](https://github.com/Preliy/upm-template/commit/f2a0d53d50338a92a14ed676b11c05958fe23755))
+
 # [1.7.0](https://github.com/Preliy/upm-template/compare/v1.6.0...v1.7.0) (2024-05-29)
 
 
