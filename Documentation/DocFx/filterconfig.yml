@@ -1,7 +1,7 @@
 # DocFX Filtering Rules
 apiRules:
 - include: # The namespaces to generate
-    uidRegex: ^OTHStudios\.ExampleTemplate
+    uidRegex: ^Preliy\.upm-template.*
     type: Namespace
 - exclude:
     uidRegex: .* # Every other namespaces are ignored
