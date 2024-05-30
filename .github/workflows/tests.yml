@@ -23,7 +23,7 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           projectPath: ./copiedProject/upm-template
-          unityVersion: "2020.3.0f1"
+          unityVersion: "2022.3.5f1"
           testMode: all
           coverageOptions: 'generateAdditionalMetrics;generateHtmlReport;generateBadgeReport;assemblyFilters:+trudeaua.EasyAccessibility.*,-*Tests*'
           packageMode: true
