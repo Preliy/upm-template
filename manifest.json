@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://preliy.github.io/upm-template/",
         "changefreq": "daily"
       }
     },
@@ -22,12 +23,36 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Preliy.upmTemplate.Runtime.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Preliy.upmTemplate.Runtime.Math.html",
+          "hash": "joGdRPzft6FPJ7OS9oh+yayDYdY6yeDPh9DHPxE1N/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Preliy.upmTemplate.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Preliy.upmTemplate.Runtime.html",
+          "hash": "GJWnhIfRismM8KNPN98W1q0nDF2ikUaLcLoQtNly0M8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "qyx0iybx3DvSqMcwC2v6vbh3xNjBOnjUCRIgFqBOkiI="
+          "hash": "Bp77U94OrxbnH/c/eu8vP6YpwHOpKmtCicpufVqr4SM="
         }
       },
       "is_incremental": false,
@@ -49,6 +74,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

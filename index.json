@@ -1,4 +1,14 @@
 {
+  "api/Preliy.upmTemplate.Runtime.html": {
+    "href": "api/Preliy.upmTemplate.Runtime.html",
+    "title": "Namespace Preliy.upmTemplate.Runtime | Template Package",
+    "keywords": "Namespace Preliy.upmTemplate.Runtime Classes Math A placeholder script that has some dummy data to show how documentation is generated"
+  },
+  "api/Preliy.upmTemplate.Runtime.Math.html": {
+    "href": "api/Preliy.upmTemplate.Runtime.Math.html",
+    "title": "Class Math | Template Package",
+    "keywords": "Class Math A placeholder script that has some dummy data to show how documentation is generated Inheritance Object Math Namespace : Preliy.upmTemplate.Runtime Assembly : cs.temp.dll.dll Syntax public static class Math Methods Add(Single, Single) Declaration public static float Add(float a, float b) Parameters Type Name Description Single a Single b Returns Type Description Single Minus(Single, Single) Declaration public static float Minus(float a, float b) Parameters Type Name Description Single a Single b Returns Type Description Single"
+  },
   "index.html": {
     "href": "index.html",
     "title": "CustomPackage | Template Package",

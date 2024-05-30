@@ -1,3 +1,41 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: Preliy.upmTemplate.Runtime
+  name: Preliy.upmTemplate.Runtime
+  href: api/Preliy.upmTemplate.Runtime.html
+  commentId: N:Preliy.upmTemplate.Runtime
+  fullName: Preliy.upmTemplate.Runtime
+  nameWithType: Preliy.upmTemplate.Runtime
+- uid: Preliy.upmTemplate.Runtime.Math
+  name: Math
+  href: api/Preliy.upmTemplate.Runtime.Math.html
+  commentId: T:Preliy.upmTemplate.Runtime.Math
+  fullName: Preliy.upmTemplate.Runtime.Math
+  nameWithType: Math
+- uid: Preliy.upmTemplate.Runtime.Math.Add(System.Single,System.Single)
+  name: Add(Single, Single)
+  href: api/Preliy.upmTemplate.Runtime.Math.html#Preliy_upmTemplate_Runtime_Math_Add_System_Single_System_Single_
+  commentId: M:Preliy.upmTemplate.Runtime.Math.Add(System.Single,System.Single)
+  fullName: Preliy.upmTemplate.Runtime.Math.Add(System.Single, System.Single)
+  nameWithType: Math.Add(Single, Single)
+- uid: Preliy.upmTemplate.Runtime.Math.Add*
+  name: Add
+  href: api/Preliy.upmTemplate.Runtime.Math.html#Preliy_upmTemplate_Runtime_Math_Add_
+  commentId: Overload:Preliy.upmTemplate.Runtime.Math.Add
+  isSpec: "True"
+  fullName: Preliy.upmTemplate.Runtime.Math.Add
+  nameWithType: Math.Add
+- uid: Preliy.upmTemplate.Runtime.Math.Minus(System.Single,System.Single)
+  name: Minus(Single, Single)
+  href: api/Preliy.upmTemplate.Runtime.Math.html#Preliy_upmTemplate_Runtime_Math_Minus_System_Single_System_Single_
+  commentId: M:Preliy.upmTemplate.Runtime.Math.Minus(System.Single,System.Single)
+  fullName: Preliy.upmTemplate.Runtime.Math.Minus(System.Single, System.Single)
+  nameWithType: Math.Minus(Single, Single)
+- uid: Preliy.upmTemplate.Runtime.Math.Minus*
+  name: Minus
+  href: api/Preliy.upmTemplate.Runtime.Math.html#Preliy_upmTemplate_Runtime_Math_Minus_
+  commentId: Overload:Preliy.upmTemplate.Runtime.Math.Minus
+  isSpec: "True"
+  fullName: Preliy.upmTemplate.Runtime.Math.Minus
+  nameWithType: Math.Minus
