@@ -1,3 +1,10 @@
+## [1.7.9](https://github.com/Preliy/upm-template/compare/v1.7.8...v1.7.9) (2024-05-30)
+
+
+### Bug Fixes
+
+* Update semantic-release.yml ([bdb6d6f](https://github.com/Preliy/upm-template/commit/bdb6d6f5a6f6a93dcc1a93dc69932f4a62c1ca3b))
+
 ## [1.7.8](https://github.com/Preliy/upm-template/compare/v1.7.7...v1.7.8) (2024-05-30)
 
 
