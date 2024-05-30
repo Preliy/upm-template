@@ -1,4 +1,4 @@
-namespace Preliy.upm-template.Runtime
+namespace Preliy.upmTemplate.Runtime
 { 
     /// <summary>
     /// A placeholder script that has some dummy data to show how documentation is generated
