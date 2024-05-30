@@ -3,6 +3,21 @@
 
 ### Bug Fixes
 
+* Delete .github/workflows/testing.yml ([9dbddb3](https://github.com/Preliy/upm-template/commit/9dbddb3f6f558bce7f68b52ffdaa832fc5760714))
+* Update semantic-release.yml ([1c7fd74](https://github.com/Preliy/upm-template/commit/1c7fd74d39456ced887cd6068bd52aa8d06aba62))
+* Update tests.yml ([4b4cedc](https://github.com/Preliy/upm-template/commit/4b4cedcde8c10b2e88b55cae9547cf35ecd81040))
+* Update tests.yml ([b376431](https://github.com/Preliy/upm-template/commit/b376431f6db253378cfd56ec3e9a812e0fd1da4f))
+
+
+### Features
+
+* Create tests.yml ([f269e79](https://github.com/Preliy/upm-template/commit/f269e79fad9a4af3b9ff3773692a6fc0e83f3eb6))
+
+# [1.8.0](https://github.com/Preliy/upm-template/compare/v1.7.9...v1.8.0) (2024-05-30)
+
+
+### Bug Fixes
+
 * Update semantic-release.yml ([1c7fd74](https://github.com/Preliy/upm-template/commit/1c7fd74d39456ced887cd6068bd52aa8d06aba62))
 * Update tests.yml ([b376431](https://github.com/Preliy/upm-template/commit/b376431f6db253378cfd56ec3e9a812e0fd1da4f))
 
