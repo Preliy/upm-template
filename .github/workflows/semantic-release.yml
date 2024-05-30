@@ -123,7 +123,7 @@ jobs:
       - name: Tag UPM Branch
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
-          git tag v${{ steps.semantic.outputs.new_release_version }} upm
+          git tag -fa v${{ steps.semantic.outputs.new_release_version }} upm
           git push -f origin --tags
 
       # Publish this tagged as a release
