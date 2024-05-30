@@ -1,3 +1,10 @@
+## [1.7.7](https://github.com/Preliy/upm-template/compare/v1.7.6...v1.7.7) (2024-05-30)
+
+
+### Bug Fixes
+
+* scripts namespace ([4abd880](https://github.com/Preliy/upm-template/commit/4abd880430488b725ce33ec69b4c0cfcbd5b6797))
+
 ## [1.7.6](https://github.com/Preliy/upm-template/compare/v1.7.5...v1.7.6) (2024-05-29)
 
 
