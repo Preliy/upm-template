@@ -1,11 +1,14 @@
-name: Get Unity license activation file
+name: Verify Unity License
 
 on: workflow_dispatch
 
 jobs:
-  requestManualActivationFile:
-    name: Request manual activation file
+  verifyUnityLicense:
+    name: Verify License
     runs-on: ubuntu-latest
     steps:
       - name: Unity - Activate
         uses: game-ci/unity-activate@v2.0.0
+              
+              
+            
